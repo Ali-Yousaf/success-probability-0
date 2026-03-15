@@ -566,7 +566,7 @@ GameObject:
   - component: {fileID: 765187383}
   - component: {fileID: 765187385}
   m_Layer: 5
-  m_Name: dice roll
+  m_Name: HT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -676,7 +676,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1166683483}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: PlayDiceRoll
+        m_MethodName: PlayHeadsTails
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

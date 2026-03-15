@@ -3,9 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
-    public void PlayDiceRoll()
+    public void PlayHeadsTails()
     {
-        SceneManager.LoadScene("Dice Roll");
+        SceneManager.LoadScene("HeadsTails");
     }
 
     public void QuitGame()
