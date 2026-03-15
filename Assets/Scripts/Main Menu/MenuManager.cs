@@ -8,6 +8,21 @@ public class MenuManager : MonoBehaviour
         SceneManager.LoadScene("HeadsTails");
     }
 
+    public void PlayNumberGuess()
+    {
+        SceneManager.LoadScene("NumberGuess");
+    }
+
+    public void PlayerTargetHit()
+    {
+        SceneManager.LoadScene("Hit The Target");
+    }
+
+    public void PlayLuckyDraw()
+    {
+        SceneManager.LoadScene("LuckyDraw");
+    }
+
     public void QuitGame()
     {
         Application.Quit();
