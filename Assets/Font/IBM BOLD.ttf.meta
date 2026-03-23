@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3bcbb1f9ed1a015418335da2543b4d2a
+guid: 9f62b5912dfe1854b9f98a2c8d628312
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Nabla
+  - IBM Plex Serif
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
