@@ -13,6 +13,8 @@ public class CoinGameManager : MonoBehaviour
     public TMP_Text resultText; 
     public GameObject gameOverPanel; 
     public TMP_Text gameOverText;
+    public AudioSource audioSource;
+    public AudioClip coinFlipSFX;
 
     private int currentIndex = 0;
     private bool gameEnded = false;
@@ -20,6 +22,7 @@ public class CoinGameManager : MonoBehaviour
     void Start()
     {
         coin.OnCoinResult += HandleResult;
+        audioSource = GetComponent<AudioSource>();
         ResetGame();
     }
 
@@ -28,6 +31,7 @@ public class CoinGameManager : MonoBehaviour
         if (!gameEnded)
         {
             resultText.gameObject.SetActive(false);
+            audioSource.PlayOneShot(coinFlipSFX);
             coin.FlipCoin();
         }
     }

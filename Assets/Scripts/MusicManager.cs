@@ -6,7 +6,7 @@ public class MusicManager : MonoBehaviour
     [SerializeField] AudioSource audioSrc;
     [SerializeField] AudioClip audioClip;
 
-    [SerializeField] private float volume = 0.5f;
+    [SerializeField] private float volume = 0.2f;
     [SerializeField] private float fadeInDuration = 2f;
 
 
